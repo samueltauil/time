@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 MAINTAINER Veer Muchandi veer@redhat.com
 ADD ./init.sh ./
 RUN yum install nmap-ncat-6.40-7.el7.x86_64 -y && yum clean all -y 
